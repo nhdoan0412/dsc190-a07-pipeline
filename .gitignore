@@ -1,0 +1,15 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
+
+# Marimo generated files
+__marimo__/
+
+# DVC-generated datasets
+/data/clean/events.csv
+/data/transformed/events.csv
+/data/features/events.csv
